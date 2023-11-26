@@ -54,5 +54,3 @@ request.send()
 //     const response = await fetch(urlFilms)
 //     const data = await response.json()
 //   }
-
-
