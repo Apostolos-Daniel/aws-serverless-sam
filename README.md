@@ -28,3 +28,17 @@ sam build
 ```bash
 sam init --runtime python3.8 --name sam-app --package-type image
 ```
+
+## Working with the sam template
+
+```bash
+sam validate
+sam build
+sam deploy --guided
+```
+
+Run all the pre-commit hooks:
+
+```bash
+pre-commit run --all-files
+```
